@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="modal.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Background Image Project</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="modalBoxed">
+
+        <div class="lightboxContainer">
+            <a class="btn modalBox-close"> <i class="fa fa-close"></i></a>
+            <div class="lightbox-item"></div>
+            <a class="btn btned btn-left"><i class="fa fa-angle-left"></i></a>
+            <a class="btn btned btn-right"><i class="	fa fa-angle-right"></i></a>
+        </div>
+
+    </div>
+
+    <div class="servicepage">
+        <h3>Products and Works </h3>
+        <input type="text" class="search">
+        <ul>
+            <li class="button active" data-filter="all">All</li>
+            <li class="button" data-filter="manufacturing">Manufacturing</li>
+            <li class="button" data-filter="packaging"> Carton Packaging</li>
+            <li class="button" data-filter="light"> Light Packaging</li>
+            <li class="button" data-filter="delivery">Transport and delivery </li>
+        </ul>
+
+        <div class="boxed">
+            <div class="box filter manufacturing" name='manufacturing'> <img src="build.jpg" class="store-img"></div>
+            <div class="box filter light light-packaging" name='light packaging'> <img src="boxes.jpg" class="store-img"></div>
+            <div class="box filter packaging carton" name='carton packaging'> <img src="book.jpg" class="store-img"></div>
+            <div class="box filter manufacturing" name='manufacturing'> <img src="bran.jpg" class="store-img"></div>
+            <div class="box filter manufacturing" name='manufacturing'> <img src="build.jpg" class="store-img"></div>
+            <div class="box filter packaging carton" name='carton packaging'> <img src="boxes.jpg" class="store-img"></div>
+            <div class="box filter delivery transport " name='transport and delivery'> <img src="build.jpg" class="store-img"></div>
+            <div class="box filter manufacturing" name='manufacturing'> <img src="bran.jpg" class="store-img"></div>
+            <div class="box filter light light-packaging" name='light packaging'> <img src="boxes.jpg" class="store-img"></div>
+            <div class="box filter packaging carton " name='carton packaging'> <img src="book.jpg" class="store-img"></div>
+            <div class="box filter delivery transport" name='transport and delivery'> <img src="build.jpg" class="store-img"></div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="modal.js"></script>
+</body>
+
+</html>
